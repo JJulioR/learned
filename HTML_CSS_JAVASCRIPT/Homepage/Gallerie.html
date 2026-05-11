@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <link href="styles.css" rel="stylesheet">
+    <link rel="shortcut icon" href="media/img/logo-blk.ico" type="image/x-icon">
+    <script src="script.js"></script>
+
+
+    <title>Jean Julio - Gallerie</title>
+</head>
+<body>
+    
+
+    <header>
+
+        <nav class="navbar navbar-dark position-relative px-3">
+
+            <button class="navbar-toggler burger-btn position-fixed" type="button" id="menu-button"
+                data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
+                aria-label="Toggle navigation" style="top: 10px; left: 10px; z-index: 1030;">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+
+            <div class="offcanvas offcanvas-start bg-dark text-white" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header ">
+                    <a class="navbar-brand d-flex align-items-center" href="index.html">
+                        <img src="media/img/logo-wht.png" alt="Logo Julio white" class="img-fluid me-2"
+                            id="logo-navbar">
+                    </a>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                        aria-label="Close">
+                    </button>
+                </div>
+
+                <hr id="sep-navbar">
+
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="about.html">À propos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="Projets.html">Projets</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="Gallerie.html">Gallerie</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+     <main class="container py-5">
+        <section class="gallery-intro mb-5">
+            <h1 class="mb-3">Galerie</h1>
+            <p>
+                <span class="greeting"></span>, découvre ici quelques images de mes projets, inspirations
+                et réalisations, une partie de mon passe temps  de mon univers visuel.
+            </p>
+        </section>
+
+        <section class="gallery-flex">
+            <a href="media/img/gallerie/celeste-black-red-scaled.webp" class="gallery-item" target="_blank">
+                <img src="media/img/gallerie/celeste-black-red-scaled.webp" alt="Projet 1">
+            </a>
+
+            <a href="media/img/gallerie/celeste-sto-scaled.webp" class="gallery-item" target="_blank">
+                <img src="media/img/gallerie/celeste-sto-scaled.webp" alt="Projet 2">
+            </a>
+
+            <a href="media/img/gallerie/fis.png" class="gallery-item" target="_blank">
+                <img src="media/img/gallerie/fis.png" alt="Projet 3">
+            </a>
+
+            <a href="media/img/gallerie/IMG_4254.jpg" class="gallery-item" target="_blank">
+                <img src="media/img/gallerie/IMG_4254.jpg" alt="Projet 4">
+            </a>
+
+            <a href="media/img/gallerie/janie-scaled.webp" class="gallery-item" target="_blank">
+                <img src="media/img/gallerie/janie-scaled.webp" alt="Projet 5">
+            </a>
+
+            <a href="media/img/gallerie/raf_dark_side_v2.webp" class="gallery-item" target="_blank">
+                <img src="media/img/gallerie/raf_dark_side_v2.webp" alt="Projet 6">
+            </a>
+
+            <a href="media/img/gallerie/reflect.webp" class="gallery-item" target="_blank">
+                <img src="media/img/gallerie/reflect.webp" alt="Projet 7">
+            </a>
+
+            <a href="media/img/gallerie/sign.jpg" class="gallery-item" target="_blank">
+                <img src="media/img/gallerie/sign.jpg" alt="Projet 8">
+            </a>
+        </section>
+        <button type="button" class="btn-continue" onclick="window.location.href='index.html'">
+                  Retourner à l'accueil
+                    </button>
+    </main>
+        
+
+       <footer class="footer-transparent">
+        <div
+            class="container-fluid d-flex flex-column flex-sm-row justify-content-between align-items-center px-3 py-2">
+            <span class="footer-copy">© Jean Julio RINVIL <span id="current-year"></span>.</span>
+            <div class="footer-links mt-2 mt-sm-0">
+                <a href="https://jrinvil.com/politique-de-confidentialite/" target="_blank"
+                    class="text-decoration-none me-3">Politique de confidentialité</a>
+                <a href="https://www.linkedin.com/in/jean-julio-rinvil-5b942b200/" target="_blank" rel="noopener"
+                    class="text-decoration-none">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
