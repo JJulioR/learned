@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, Helvetica, sans-serif ;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.H-Liens{
+    text-align: right;
+    padding: 15px 25px;
+}
+.H-Liens a{
+    margin-left: 15px;
+    text-decoration: none;
+    color: darkblue;
+}
+.H-Liens a:hover{
+    color: lightblue;
+}
+
+.Logo{
+    font-size: 65px;
+    margin : 120px 0px 30px 0;
+    color: skyblue;
+    align-self: auto;
+
+}
+.search-box{
+    width: 500px;
+    max-width: 90%;
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-size: 16px;
+
+}
+.Btn{ 
+    margin-top: 25px;
+}
+.Btn input{
+    padding: 8px 16px;
+    margin: 0px 5px;
+    border: 1px solid lightgray;
+    background-color: lightgray;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.Btn input:hover{
+    border: 1px solid darkgray;
+}
+.advanced-title{
+    margin: 40px 0px 20px 40px;
+    text-align: left;
+    font-size: 24px;
+    color: skyblue;
+}
+.advanced-form{
+    max-width: 800px;
+    margin-left: 40px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.row label{
+    width: 280px;
+    font-size: 14px;
+}
+.row input [type="text"]{
+    flex: 1;
+    padding: 6px 8px;
+    font-size: 14px;
+}
+
+.advanced-button-wrapper{
+    margin-top: 20px;
+}
+.advanced-button{
+    background-color: blue;
+    color: white;
+    border: 1px solid blue;
+    padding: 8px 16px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.advanced-button:hover{
+    background-color: lightblue;
+}
